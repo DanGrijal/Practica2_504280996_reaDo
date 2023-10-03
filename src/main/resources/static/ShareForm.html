@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <link href="CSS/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div>
+            <header class="header">
+                <nav class="nav">
+                    <a href="ReaDoMain.html" class="logo-principal navLink">
+                        <img src="images/readoIcon.png" width="100" alt=""/>
+                    </a>
+                    <ul class="menuPrincipal">
+                        <li class="itemsMenu"><a class="linkItem navLink" href="Statistics.html">Statistics</a></li>
+                        <li class="itemsMenu"><a class="linkItem navLink" href="Education.html">Education</a></li>
+                        <li class="itemsMenu"><a class="linkItem navLink" href="Maps.html">Around you</a></li>
+                        <li class="itemsMenu"><a class="linkItem navLink" href="ShareForm.html">Quote me</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        
+        <aside id="aside">
+            <div class="aboutAside">
+                <h4 id="tituloAside">About this section</h4>
+                <p id="aboutAsideText">This section is for user's to share your most intimates quotes from your favorite books, you can even add extra content on the meaning of the quote, interpretation or just your feelings. Please note that this is a safe space for all readers so we'll have to review and approve all these request</p>
+                <br><!-- comment -->
+                <img src="images/bookies.gif" alt="" height="140"/>
+            </div>
+        </aside>
+        
+        <section>
+            <div class="form" >
+                <form action="#" method="GET">
+                    <label>Author</label> - <input type="text" name="author" placeholder="Fill the author's name" size="30" /><br />
+                    <label>Book</label> - <input type="text" name="book" placeholder="Book's name" size="30" /><br />
+                    <label>Book Cover</label> - <input type="file" name="coverB" placeholder="" size="10"/><br />
+                    <label>Author Cover</label> - <input type="file" name="coverA" placeholder="" size="10"/><br />
+                    <label></label><textarea name="dirección" rows="7" cols="50" placeholder="Insert your quote and thoughts here"></textarea><br />
+                    <label></label><input type="button" name="nombre" value="Send"/><br />
+            </div>
+        </section>
+        <footer class="footer">
+            <p id="footerText">Site register by Danny Grijalba &#169 All rights reserved</p>
+        </footer>
+    </body>
+</html>
